@@ -1,0 +1,28 @@
+{
+  "name": "exchange-rate-api",
+  "version": "1.0.0",
+  "description": "An API to fetch exchange rates from NBC Cambodia website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "khea",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "data-uri-to-buffer": "^6.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "puppeteer": "^21.9.0",
+    "puppeteer-core": "^21.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XKH-KHEA/exchangerate.git"
+  }
+}
